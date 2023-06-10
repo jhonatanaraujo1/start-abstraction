@@ -1,11 +1,11 @@
-package api.exemplo.service;
+package br.abastraction.startabstraction.api.exemplo.service;
 
-import api.exemplo.controller.domain.ExempleUpdateRequest;
-import api.exemplo.controller.domain.ExempleResponse;
-import api.exemplo.controller.domain.ExempleSaveRequest;
-import api.exemplo.controller.mapper.ExempleMapper;
-import api.exemplo.entity.ExempleEntity;
-import api.exemplo.repository.ExempleRepository;
+import br.abastraction.startabstraction.api.exemplo.controller.domain.ExempleResponse;
+import br.abastraction.startabstraction.api.exemplo.controller.domain.ExempleSaveRequest;
+import br.abastraction.startabstraction.api.exemplo.controller.domain.ExempleUpdateRequest;
+import br.abastraction.startabstraction.api.exemplo.service.mapper.ExempleMapper;
+import br.abastraction.startabstraction.api.exemplo.entity.ExempleEntity;
+import br.abastraction.startabstraction.api.exemplo.repository.ExempleRepository;
 import common.support.AbstractCrudService;
 import common.support.CrudMapper;
 import lombok.RequiredArgsConstructor;
@@ -19,6 +19,7 @@ public class ExampleService extends AbstractCrudService<
         ExempleEntity, Integer, ExempleSaveRequest, ExempleUpdateRequest, ExempleResponse> {
 
   private final ExempleRepository repository;
+
   private final ExempleMapper mapper;
 
   @Override

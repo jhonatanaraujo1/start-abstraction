@@ -1,6 +1,6 @@
-package api.exemplo.repository;
+package br.abastraction.startabstraction.api.exemplo.repository;
 
-import api.exemplo.entity.ExempleEntity;
+import br.abastraction.startabstraction.api.exemplo.entity.ExempleEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

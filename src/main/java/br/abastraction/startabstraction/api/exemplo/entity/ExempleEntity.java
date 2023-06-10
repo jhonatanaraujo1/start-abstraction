@@ -1,4 +1,4 @@
-package api.exemplo.entity;
+package br.abastraction.startabstraction.api.exemplo.entity;
 
 import common.support.BaseEntity;
 import javax.persistence.Column;

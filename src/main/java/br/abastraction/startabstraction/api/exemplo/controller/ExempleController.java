@@ -1,10 +1,10 @@
-package api.exemplo.controller;
+package br.abastraction.startabstraction.api.exemplo.controller;
 
-import api.exemplo.controller.domain.ExempleUpdateRequest;
-import api.exemplo.controller.domain.ExempleResponse;
-import api.exemplo.controller.domain.ExempleSaveRequest;
-import api.exemplo.entity.ExempleEntity;
-import api.exemplo.service.ExampleService;
+import br.abastraction.startabstraction.api.exemplo.entity.ExempleEntity;
+import br.abastraction.startabstraction.api.exemplo.controller.domain.ExempleUpdateRequest;
+import br.abastraction.startabstraction.api.exemplo.controller.domain.ExempleResponse;
+import br.abastraction.startabstraction.api.exemplo.controller.domain.ExempleSaveRequest;
+import br.abastraction.startabstraction.api.exemplo.service.ExampleService;
 import common.support.AbstractCrudController;
 import common.support.AbstractCrudService;
 import io.swagger.annotations.Api;

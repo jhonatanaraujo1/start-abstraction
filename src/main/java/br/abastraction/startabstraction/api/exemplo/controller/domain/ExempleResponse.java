@@ -1,4 +1,4 @@
-package api.exemplo.controller.domain;
+package br.abastraction.startabstraction.api.exemplo.controller.domain;
 
 import lombok.Getter;
 import lombok.Setter;
