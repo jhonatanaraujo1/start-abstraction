@@ -5,7 +5,7 @@ Start Abstraction is an open-source project developed using Java 17 and Spring B
 The goal of Start Abstraction is to provide a simple, flexible and fast solution for projects that are starting for implementing commonly used database operations such as listing, searching by ID, updating, and creating records. It aims to reduce the amount of repetitive code required when developing applications that involve data manipulation.
 
 # Key Features
-- Simplified CRUD: Start Abstraction offers an abstraction for performing basic CRUD operations in a simple and intuitive way.
+- Simplified CRUD: Start Abstraction offers an abstraction for performing basic CRUD operations in a simple way.
 - Code Reusability: With the structure provided by Start Abstraction, it's possible to reuse abstract functionalities across different entities within the system, avoiding code duplication.
 - Flexibility: The project is designed using Java 17 and Spring Boot, providing flexibility to adapt to different technologies and project-specific requirements.
 - Extensibility: In addition to basic CRUD functionalities, Start Abstraction provides the ability to add new abstract functionalities that can be easily replicated for different entities.
